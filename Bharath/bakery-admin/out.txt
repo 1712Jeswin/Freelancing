@@ -1,0 +1,32 @@
+﻿src/app/orders/[id]/page.tsx(3,24): error TS2307: Cannot find module 'date-fns' or its corresponding type declarations.
+src/app/orders/[id]/page.tsx(6,27): error TS2307: Cannot find module '@/components/ui/separator' or its corresponding type declarations.
+src/app/orders/[id]/status-updater.tsx(3,26): error TS2307: Cannot find module '@/components/ui/use-toast' or its corresponding type declarations.
+src/app/orders/page.tsx(2,24): error TS2307: Cannot find module 'date-fns' or its corresponding type declarations.
+src/app/products/components/product-form.tsx(16,26): error TS2307: Cannot find module '@/components/ui/use-toast' or its corresponding type declarations.
+src/app/products/components/product-form.tsx(106,31): error TS7006: Parameter 'val' implicitly has an 'any' type.
+src/app/products/delete-button.tsx(7,26): error TS2307: Cannot find module '@/components/ui/use-toast' or its corresponding type declarations.
+src/app/products/page.tsx(10,24): error TS2307: Cannot find module 'date-fns' or its corresponding type declarations.
+src/components/ui/alert-dialog.tsx(4,53): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/badge.tsx(3,22): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/button.tsx(3,22): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/calendar.tsx(13,8): error TS2307: Cannot find module 'react-day-picker' or its corresponding type declarations.
+src/components/ui/calendar.tsx(43,31): error TS7006: Parameter 'date' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(135,18): error TS7031: Binding element 'className' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(135,29): error TS7031: Binding element 'rootRef' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(145,21): error TS7031: Binding element 'className' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(145,32): error TS7031: Binding element 'orientation' implicitly has an 'any' type.
+src/components/ui/calendar.tsx(166,24): error TS7031: Binding element 'children' implicitly has an 'any' type.
+src/components/ui/command.tsx(4,45): error TS2307: Cannot find module 'cmdk' or its corresponding type declarations.
+src/components/ui/dialog.tsx(5,43): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/dropdown-menu.tsx(5,55): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/label.tsx(4,41): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/popover.tsx(4,45): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/radio-group.tsx(5,51): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/select.tsx(5,43): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/toast.tsx(4,34): error TS2307: Cannot find module '@radix-ui/react-toast' or its corresponding type declarations.
+src/components/ui/toaster.tsx(3,26): error TS2307: Cannot find module '@/hooks/use-toast' or its corresponding type declarations.
+src/components/ui/toaster.tsx(18,31): error TS7031: Binding element 'id' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(18,35): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(18,42): error TS7031: Binding element 'description' implicitly has an 'any' type.
+src/components/ui/toaster.tsx(18,55): error TS7031: Binding element 'action' implicitly has an 'any' type.
+

@@ -1,0 +1,10 @@
+﻿src/components/ui/alert-dialog.tsx(4,53): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/badge.tsx(3,22): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/button.tsx(3,22): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/dialog.tsx(5,43): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/dropdown-menu.tsx(5,55): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/label.tsx(4,41): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/popover.tsx(4,45): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/radio-group.tsx(5,51): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+src/components/ui/select.tsx(5,43): error TS2307: Cannot find module 'radix-ui' or its corresponding type declarations.
+
