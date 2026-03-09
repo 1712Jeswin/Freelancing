@@ -3,7 +3,6 @@ import { SignUp } from "@clerk/nextjs";
 export default function RegisterPage() {
   return (
     <div className="flex min-h-screen">
-      {/* Right side: Image (Swapped for variety) */}
       <div 
         className="hidden lg:flex w-1/2 bg-cover bg-center order-2"
         style={{ backgroundImage: `url('https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=2000&auto=format&fit=crop')` }}
