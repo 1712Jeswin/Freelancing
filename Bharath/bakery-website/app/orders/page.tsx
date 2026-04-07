@@ -2,7 +2,7 @@ import { getOrders } from "@/modules/orders/actions";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { auth } from "@clerk/nextjs/server";
+import { getInternalUserId } from "@/lib/auth";
 import { OrderCard } from "@/modules/orders/components/order-card";
 
 export default async function OrdersPage({
@@ -10,7 +10,7 @@ export default async function OrdersPage({
 }: {
   searchParams: Promise<{ filter?: "current" | "prev" }>;
 }) {
-  const { userId } = await auth();
+  const userId = await getInternalUserId();
   if (!userId) {
     redirect("/login");
   }

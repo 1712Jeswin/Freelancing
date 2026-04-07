@@ -4,14 +4,14 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { auth } from "@clerk/nextjs/server";
+import { getInternalUserId } from "@/lib/auth";
 import { ArrowLeft, CheckCircle, Clock, CreditCard, MapPin, Package, ReceiptText, Truck, XCircle, CalendarIcon } from "lucide-react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { CancelOrderButton } from "./cancel-order-button";
 
 export default async function OrderDetailsPage({ params }: { params: Promise<{ id: string }> }) {
-  const { userId } = await auth();
+  const userId = await getInternalUserId();
   if (!userId) {
     redirect("/login");
   }
